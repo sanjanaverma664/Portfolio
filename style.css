@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Sora", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #080808;
+    color: #fff;
+}
+
+.continer {
+    padding: 0 13%;
+}
+
+/* ------------Navbar------------ */
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+
+.logo {
+    width: 50%;
+    padding: 12px 0 0 0;
+}
+
+.logo img {
+    width: 66px;
+    height: 33px;
+}
+
+.navbar {
+    width: 50%;
+    padding-top: 14px;
+}
+
+.navbar ul a {
+    color: white;
+    padding-left: 32px;
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navbar ul a:hover {
+    color: red;
+}
+
+/*--------------- Header------------- */
+.header {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+}
+
+.header .intro {
+    width: 60%;
+    height: 91vh;
+
+}
+
+.header h1 {
+    padding-top: 30%;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.header h3 {
+    padding-top: 3%;
+    font-size: 21px;
+    color: rgb(174, 174, 174);
+}
+
+.header p {
+    padding-top: 4%;
+    color: rgb(174, 174, 174);
+}
+
+.header .insert2 {
+    padding-top: 30px;
+}
+
+.header .insert2 a {
+    padding: 4px;
+    color: white;
+}
+
+.header .insert2 a:hover {
+    color: red;
+    transition: color 0.5s;
+}
+
+.header .img {
+    width: 40%;
+    height: 100vh;
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+.subimage {
+    width: 70%;
+    height: 50vh;
+    border-radius: 50%;
+    text-align: center;
+    border: 5px solid red;
+    box-shadow: 0px 0px 9px 4px red;
+    transition: all 0.5s;
+}
+
+.subimage:hover {
+    transform: scale(1.1);
+}
+
+.subimage img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 50%;
+}
+
+/* ---------------Arrow ------------------ */
+.uparrow {
+    position: sticky;
+    float: right;
+    bottom: 50px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    transition: transform 0.5s;
+    background-color: red;
+    margin-right: -12%;
+}
+
+.uparrow:hover {
+    background: rgb(106, 106, 106);
+    transform: translateY(-5px);
+}
+
+.uparrow i {
+    margin-top: 7px;
+    font-size: 19px;
+}
+
+/* ----------------About-------------- */
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    padding: 9% 0 10% 0;
+
+}
+
+.about .box {
+    width: 40%;
+    height: 100vh;
+    padding-top: 9%;
+}
+
+.box img {
+    width: 80%;
+    height: 45vh;
+    transition: all 0.5s;
+}
+.box img:hover {
+    transform: scale(1.1);
+}
+
+.about .myabout {
+    width: 60%;
+    height: 100vh;
+    text-align: left;
+}
+
+.submyabout {
+    width: 100%;
+}
+
+.myabout h1 {
+    font-size: 40px;
+}
+
+.myabout p {
+    font-size: 16px;
+    color: rgb(174, 174, 174);
+    padding-top: 5px;
+}
+
+.myabout h4 {
+    font-size: 24px;
+    text-decoration: underline 2px solid red;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.myabout h5 {
+    color: red;
+    font-size: 15px;
+}
+
+.myabout h3 {
+    font-size: 18px;
+}
+
+.myabout h6 {
+    color: rgb(174, 174, 174);
+    font-size: 17px;
+}
+
+/* --------------Project-------------- */
+.project {
+    width: 100%;
+    background-color: black;
+}
+
+.project h1 {
+    font-size: 30px;
+    padding-top: 6%;
+}
+
+.first-project {
+    width: 100%;
+    display: flex;
+    margin-top: 8%;
+}
+
+.first-project .project-img {
+    width: 50%;
+    height: 35vh;
+    padding-right: 5%;
+}
+
+.first-project .sub-img {
+    width: 100%;
+    height: 40vh;
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.first-project .sub-img:hover {
+    transform: scale(1.1);
+}
+
+.first-project .sub-img img {
+    width: 100%;
+    height: 40vh;
+    transition: all 0.5s;
+}
+
+
+.first-project .project-title {
+    width: 50%;
+    height: 35vh;
+}
+
+.first-project .project-title h3 {
+    font-size: 28px;
+}
+
+.first-project .project-title h2 {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.first-project .project-title p {
+    color: rgb(174, 174, 174);
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.first-project .project-title .link {
+    padding-top: 18px;
+}
+
+.first-project .project-title .link a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-size: 17px;
+}
+
+.first-project .project-title .link a:hover {
+    color: rgb(255, 45, 45);
+    font-size: 17.2px;
+}
+
+.second-project {
+    width: 100%;
+    display: flex;
+    margin-top: 13%;
+}
+
+.second-project .project-img {
+    width: 50%;
+    height: 35vh;
+    padding-left: 5%;
+}
+
+.second-project .sub-img {
+    width: 100%;
+    height: 40vh;
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.second-project .sub-img:hover {
+    transform: scale(1.1);
+}
+
+.second-project .sub-img img {
+    width: 100%;
+    height: 40vh;
+}
+
+
+.second-project .project-title {
+    width: 50%;
+    height: 35vh;
+}
+
+.second-project .project-title h3 {
+    font-size: 28px;
+}
+
+.second-project .project-title h2 {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.second-project .project-title p {
+    color: rgb(174, 174, 174);
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.second-project .project-title .link {
+    padding-top: 18px;
+}
+
+.second-project .project-title .link a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-size: 17px;
+}
+
+.second-project .project-title .link a:hover {
+    color: rgb(255, 45, 45);
+    font-size: 17.2px;
+}
+
+
+/* -------------Contect-------------- */
+.contect {
+    width: 100%;
+    height: 66vh;
+    background-color: black;
+    padding-top: 15%;
+}
+
+.subcontect {
+    width: 30%;
+}
+
+.contect h2 {
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+.contect a {
+    text-decoration: none;
+    color: white;
+}
+
+.download-box {
+    margin: 15% 5% 5% 8%;
+}
+
+.download-box button {
+    width: 45%;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 9px;
+    font-size: 14px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.download-box button:hover {
+    border-color: rgb(255, 103, 103);
+    box-shadow: 0 0 3px 1px rgb(255, 103, 103);
+
+}
+
+
+/* -------------Footer--------- */
+.footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 10px;
+}
