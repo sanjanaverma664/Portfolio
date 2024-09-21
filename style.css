@@ -95,11 +95,11 @@ nav {
 .header .insert2 a {
     padding: 4px;
     color: white;
+    transition: color 0.5s;
 }
 
 .header .insert2 a:hover {
     color: red;
-    transition: color 0.5s;
 }
 
 .header .img {
