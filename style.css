@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Sora", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.continer {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* ------------Navbar------------ */
+nav {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+}
+
+.logo {
+    width: 100%;
+    padding: 12px 0 0 110px;
+}
+
+.logo img {
+    width: 66px;
+    height: 33px;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 14px;
+}
+
+.navbar ul {
+    padding-left: 80px;
+}
+
+.navbar ul a {
+    color: white;
+    padding-left: 32px;
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navbar ul a:hover {
+    color: red;
+}
+
+/*--------------- Header------------- */
+.header {
+    width: 100%;
+    background-color:black;
+    height: 100vh;
+    display: flex;
+}
+.header .intro {
+    width: 60%;
+    height: 91vh;
+    padding-left: 13%;
+ 
+}
+.header h1 {
+    padding-top: 30%;
+    color: #e2dc9f;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.header h3 {
+    padding-top: 3%;
+    font-size: 21px;
+    color: rgb(174, 174, 174);
+}
+.header p {
+    padding-top: 4%;
+    color: rgb(174, 174, 174);
+}
+.header .insert2{
+    padding-top: 30px;
+}
+.header .insert2 a {
+    padding: 4px;
+    color: white;
+}
+.header .insert2 a:hover{
+    color: red;
+    transition: color 0.5s;
+}
+
+.header .img{
+    width: 40%;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 13%;
+}
+.subimage:hover{
+    transform: scale(1.1);
+}
+
+.subimage {
+    width: 70%;
+    height: 50vh;
+    border-radius: 50%;
+    text-align: center;
+    border: 5px solid red;
+    box-shadow: 0px 0px 9px 4px red;
+    transition: all 0.5s;
+}
+
+.subimage img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 50%;
+        
+
+}
+
+
+/* ---------------Arrow ------------------ */
+.uparrow {
+    position: sticky;
+    float: right;
+    bottom: 60px;
+    right: 50px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    transition: transform 0.5s;
+    background-color: red;
+}
+
+.uparrow:hover{
+    background: rgb(106, 106, 106);
+    transform: translateY(-5px);
+}
+.uparrow i {
+    margin-top: 7px;
+    font-size: 19px;
+}
+/* ----------------About-------------- */
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    padding: 6% 10% 10% 10%;
+    
+}
+.about .box {
+    width: 30%;
+    height: 100vh;
+    /* background-color: coral; */
+  
+
+}
+.subbox { 
+    width: 100%;
+    height: 100vh;
+    /* background-color: cornflowerblue; */
+    text-align: center;
+    margin: 20% 0  0 ;
+ 
+
+}
+.subbox img{
+    width: 75%;
+    height: 40vh;
+    padding-top: 8%;
+    padding-left: -8%;
+}
+
+.about .myabout{
+    width: 50%;
+    height: 100vh;
+    text-align: left;
+}
+.submyabout{
+    width: 100%;
+    margin: 0 10% 20% 0;
+}
+.myabout h1 {
+    font-size: 44px;
+    color: #e2dc9f;
+    padding: 15px 0 0 41px;
+}
+.myabout p{
+    font-size: 16px;
+    color: white;
+    padding: 9px 0 0 38px;
+}
+.myabout h4{
+    font-size: 24px;
+    padding: 20px 0 0 34px;
+    color: white;
+    text-decoration: underline 2px solid red;
+}
+.myabout h5{
+    color: red;
+    padding: 11px 0 0 34px;
+    font-size: 15px;
+}
+.myabout h3 {
+    color: white;
+    padding: 0px 0 0 34px;
+    font-size: 18px;
+}
+.myabout h6 {
+    color: rgb(185, 181, 181);
+    padding: 4px 0 0 34px;
+    font-size: 17px;
+}
+
+/* --------------Project-------------- */
+.project {
+    width: 100%;
+    height: 200vh;
+    background-color:black;
+}
+.subproject{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    margin: 0 10% 0 10%;
+}
+.code {
+    width: 45%;
+    height: 55vh;
+}
+.code h3 {
+    color: white;
+    padding: 15% 0 0 2%;
+    font-size: 40px;
+}
+.code h2{
+    color: #d0b76a;
+    padding: 0% 0 0 2%;
+    font-size: 32px;
+}
+.code p {
+    color: rgb(171, 171, 171);
+    font-size: 18px;
+    padding: 0% 0 0 2%;
+    
+}
+.code .insert3 {
+    padding-top: 18px;
+    padding-left: 19px;
+}
+.code .insert3 a{
+    color: white;
+    padding: 5px;
+}
+.code .insert3 a:hover{
+    color: red;
+    transition: color 0.5s;
+}
+
+
+
+.video{
+    width: 40%;
+    height: 55vh;
+}
+.subvideo {
+    width: 100%;
+    height: 30vh;
+    margin: 18% 0 0;
+    
+}
+.subvideo img{
+    width: 90%;
+    height:35vh;
+    border:1px solid white;
+     border-radius: 10px;
+}
+.subvideo img:hover {
+    transform: scale(1.1);
+}
+
+.miniproject {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+
+.video2{
+    width: 45%;
+    height: 45vh;
+
+}
+.subvideo2 {
+    width: 100%;
+    height: 30vh;
+    margin: 5% 0 0 0%;
+}
+.subvideo2 img{
+    width: 90%;
+    height:33vh;
+    border:1px solid white;
+    border-radius: 10px;
+}
+.subvideo2 img:hover{
+     transform: scale(1.1);
+
+}
+
+.code2 {
+    width: 40%;
+    height: 45vh;
+}
+.code2 h3 {
+    color: white;
+    padding: 5% 0 0 2%;
+    font-size: 40px;
+}
+.code2 h2{
+    color: #d0b76a;
+    padding: 0% 0 0 2%;
+    font-size: 32px;
+}
+.code2 p {
+    color: rgb(171, 171, 171);
+    font-size: 18px;
+    padding: 0% 0 0 2%;
+    
+}
+.code2 .insert4 {
+    padding-top: 18px;
+    padding-left: 17px;
+}
+.code2 .insert4 a{
+    color: white;
+    padding: 5px;
+}
+.code2 .insert4 a:hover{
+    color: red;
+    transition: color 0.5s;
+}
+--------------------------------
+.subproject{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    margin: 0 10% 0 10%;
+}
+.code {
+    width: 45%;
+    height: 55vh;
+}
+.code h3 {
+    color: white;
+    padding: 15% 0 0 2%;
+    font-size: 40px;
+}
+.code h2{
+    color: #d0b76a;
+    padding: 0% 0 0 2%;
+    font-size: 32px;
+}
+.code p {
+    color: rgb(171, 171, 171);
+    font-size: 18px;
+    padding: 0% 0 0 2%;
+    
+}
+.code .insert3 {
+    padding-top: 18px;
+    padding-left: 17px;
+}
+.code .insert3 a{
+    color: white;
+    padding: 5px;
+}
+.code .insert3 a:hover{
+    color: red;
+    transition: color 0.5s;
+}
+
+
+
+.video{
+    width: 40%;
+    height: 55vh;
+}
+.subvideo {
+    width: 100%;
+    height: 30vh;
+    margin: 18% 0 0;
+}
+.subvideo img{
+    width: 90%;
+    height:35vh;
+}
+-----------------------------
+.miniproject {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+
+.video2{
+    width: 45%;
+    height: 45vh;
+
+}
+.subvideo2 {
+    width: 100%;
+    height: 30vh;
+    margin: 5% 0 0 0%;
+}
+.subvideo2 img{
+    width: 90%;
+    height:33vh;
+}
+
+.code2 {
+    width: 40%;
+    height: 45vh;
+}
+.code2 h3 {
+    color: white;
+    padding: 5% 0 0 2%;
+    font-size: 40px;
+}
+.code2 h2{
+    color: #d0b76a;
+    padding: 0% 0 0 2%;
+    font-size: 32px;
+}
+.code2 p {
+    color: rgb(171, 171, 171);
+    font-size: 18px;
+    padding: 0% 0 0 2%;
+    
+}
+.code2 .insert4 {
+    padding-top: 18px;
+    padding-left: 17px;
+}
+.code2 .insert4 a{
+    color: white;
+    padding: 5px;
+}
+.code2 .insert4 a:hover{
+    color: red;
+    transition: color 0.5s;
+}
+
+
+
+/* -------------Contect-------------- */
+.contect {
+    width: 100%;
+    height: 91vh;
+    background-color:black;
+   
+}
+.subcontect{
+    width: 30%;
+    height: 60vh;
+    margin: 0 20% 40% 13%;
+    padding-top: 10%;
+}
+.contect h2 {
+    color: #e2dc9f;
+    font-size: 40px;
+
+}
+.contect p{
+    color: rgb(218, 217, 217);
+    font-size: 18px;
+    padding-top: 28px;
+    padding-left: 6px;
+}
+
+.continer7  {
+    margin: 15% 5% 5% 8%;
+}
+.continer7 button {
+    width: 40%;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 11px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.continer7 button:hover{
+    border-color: red;
+    transition: border 0.5s;
+}
+
+
+/* -------------Footer--------- */
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    text-align:center;
+    
+}
+.footer p {
+    color:white;
+    padding: 10px;
+    font-size: 13px;
+}
